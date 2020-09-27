@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: Introduction
-layout: home
+layout: default
 ---
+
+# Introduction
 
 The Software Architect's Handbook is a collection of patterns, practices, heuristics and tools for today's tech leader.

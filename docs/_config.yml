@@ -20,13 +20,22 @@ description: >-
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 
-baseurl: "/handbook"
-url: "https://martyn82.github.io"
+baseurl: /handbook/
+url: https://martyn82.github.io
 github_username:  martyn82
+paginate:         5
+repository:       martyn82/handbook
 
-# Build settings
-markdown: kramdown
-theme: minima
+github:
+  repo: https://github.com/martyn82/handbook
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
 plugins:
   - jekyll-feed
 
