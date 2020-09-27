@@ -8,4 +8,4 @@ layout: default
 
 # Introduction
 
-The Software Architect's Handbook is a collection of patterns, practices, heuristics and tools for today's tech leader.
+The Software Architect's Handbook is a collection of patterns, practices, heuristics and tools for today's tech leaders.

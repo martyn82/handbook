@@ -1,0 +1,9 @@
+.message.info {
+    color: #717171;
+    background-color: #d4f6ff;
+}
+
+.message.warn {
+    color: #717171;
+    background-color: #ffeab0;
+}
