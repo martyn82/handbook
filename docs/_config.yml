@@ -30,7 +30,7 @@ github:
   repo: https://github.com/martyn82/handbook
 
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
