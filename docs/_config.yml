@@ -38,12 +38,6 @@ permalink:        pretty
 
 plugins:
   - jekyll-feed
-  - jekyll-analytics
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-22935889-3
-    anonymizeIp: false
 
 include:
   - _pages
