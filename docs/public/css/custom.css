@@ -1,3 +1,7 @@
+body {
+    background: #eaeaea;
+}
+
 .message.info {
     color: #717171;
     background-color: #d4f6ff;
