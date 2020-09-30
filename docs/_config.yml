@@ -37,6 +37,10 @@ highlighter:      rouge
 permalink:        pretty
 
 plugins:
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
   - jekyll-feed
 
 include:
