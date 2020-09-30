@@ -14,7 +14,8 @@ some information on how to measure and control them.
 
 <dl>
     <dt>
-        <a href="{{ '/quality/functional-suitability/' | relative_url }}">Functional suitability</a>
+        <!-- <a href="{{ '/quality/functional-suitability/' | relative_url }}">Functional suitability</a> -->
+        Functional suitability
     </dt>
     <dd>
         This characteristic represents the degree to which a product or system provides functions that meet stated and implied
@@ -29,7 +30,8 @@ some information on how to measure and control them.
     </dd>
     
     <dt>
-        <a href="{{ '/quality/compatibility/' | relative_url }}">Compatibility</a>
+        <!-- <a href="{{ '/quality/compatibility/' | relative_url }}">Compatibility</a> -->
+        Compatibility
     </dt>
     <dd>
         Degree to which a product, system or component can exchange information with other products, systems or components,
@@ -37,7 +39,8 @@ some information on how to measure and control them.
     </dd>
     
     <dt>
-        <a href="{{ '/quality/usability/' | relative_url }}">Usability</a>
+        <!-- <a href="{{ '/quality/usability/' | relative_url }}">Usability</a> -->
+        Usability
     </dt>
     <dd>
         Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness,
@@ -69,7 +72,8 @@ some information on how to measure and control them.
     </dd>
     
     <dt>
-        <a href="{{ '/quality/portability/' | relative_url }}">Portability</a>
+        <!-- <a href="{{ '/quality/portability/' | relative_url }}">Portability</a> -->
+        Portability
     </dt>
     <dd>
         Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware,

@@ -3,6 +3,7 @@ layout: page
 title: Portability
 permalink: /quality/portability/
 parent: 1_quality.md
+hidden: true
 ---
 
 _Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware,

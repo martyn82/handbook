@@ -18,13 +18,17 @@
         {% if node.title != null %}
           {% if node.layout == "page" and node.parent == null %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+
             {% if node.name == '1_quality.md' %}
               {% for sub in pages_list %}
-                {% if sub.parent == '1_quality.md' and (page.url == sub.url or page.name == sub.parent or page.parent == sub.parent) %}
-                  <a style="text-indent:1rem" class="sidebar-nav-item{% if page.url == sub.url %} active{% endif %}" href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
+                {% if sub.hidden == null and sub.parent == node.name and (page.url == sub.url or page.name == sub.parent or page.parent == sub.parent) %}
+                  <small>
+                    <a style="text-indent:1rem" class="sidebar-nav-item{% if page.url == sub.url %} active{% endif %}" href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
+                  </small>
                 {% endif %}
               {% endfor %}
             {% endif %}
+
           {% endif %}
         {% endif %}
       {% endfor %}

@@ -3,6 +3,7 @@ layout: page
 title: Usability
 permalink: /quality/usability/
 parent: 1_quality.md
+hidden: true
 ---
 
 _Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness,

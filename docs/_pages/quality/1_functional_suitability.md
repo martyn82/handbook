@@ -3,6 +3,7 @@ layout: page
 title: Functional suitability
 permalink: /quality/functional-suitability/
 parent: 1_quality.md
+hidden: true
 ---
 
 _This characteristic represents the degree to which a product or system provides functions that meet stated and implied

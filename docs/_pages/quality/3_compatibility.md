@@ -3,6 +3,7 @@ layout: page
 title: Compatibility
 permalink: /quality/compatibility/
 parent: 1_quality.md
+hidden: true
 ---
 
 _Degree to which a product, system or component can exchange information with other products, systems or components,
