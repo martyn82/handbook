@@ -7,10 +7,6 @@ parent: 1_quality.md
 
 _This characteristic represents the performance relative to the amount of resources used under stated conditions._
 
-## What is it?
-
-The following are more detailed quality attributes related to Performance Efficiency.
-
 <dl>
     <dt>Time behaviour</dt>
     <dd>Degree to which the response and processing times and throughput rates of a product or system, when performing 
@@ -24,7 +20,7 @@ The following are more detailed quality attributes related to Performance Effici
     <dd>Degree to which the maximum limits of a product or system parameter meet requirements.</dd>
 </dl>
 
-## How to measure it?
+## Metrics
 
 In the end, the one externally visible metric that will tell you how well Performance Efficiency is doing in your system,
 is measuring the responsiveness.

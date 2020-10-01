@@ -8,13 +8,6 @@ parent: 1_quality.md
 _Degree to which a system, product or component performs specified functions under specified conditions for a specified
 period of time._
 
-## What is it?
-
-A reliable system is a system that is robust enough to deal with hardware and software faults, and that is recoverable
-from faults.
-
-The following are more detailed quality attributes related to Reliability.
-
 <dl>
     <dt>Maturity</dt>
     <dd>Degree to which a system, product or component meets needs for reliability under normal operation.</dd>
@@ -31,7 +24,7 @@ The following are more detailed quality attributes related to Reliability.
     directly affected and re-establish the desired state of the system.</dd>
 </dl>
 
-## How to measure it
+## Metrics
 
 Everything you do to improve Reliability is, in the end, serving one externally measurable quality: availability.
 Measuring availability is commonly done with Uptime.
