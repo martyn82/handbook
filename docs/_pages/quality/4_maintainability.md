@@ -29,3 +29,27 @@ modified to improve it, correct it or adapt it to changes in environment, and in
     <dd>Degree of effectiveness and efficiency with which test criteria can be established for a system, product or
     component and tests can be performed to determine whether those criteria have been met.</dd>
 </dl>
+
+## Metrics
+
+<dl>
+    <dt>Coupling</dt>
+    <dd></dd>
+
+    <dt>Cyclomatic Complexity</dt>
+    <dd></dd>
+
+    <dt>Relative Duplication</dt>
+    <dd></dd>
+    
+    <dt>Test Coverage</dt>
+    <dd></dd>
+    
+    <dt>Unit size</dt>
+    <dd></dd>
+    
+    <dt>Volume</dt>
+    <dd></dd>
+</dl>
+
+<small>★ Key Performance Indicator</small>

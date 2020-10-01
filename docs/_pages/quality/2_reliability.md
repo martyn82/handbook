@@ -30,7 +30,17 @@ Everything you do to improve Reliability is, in the end, serving one externally 
 Measuring availability is commonly done with Uptime.
 
 <dl>
-    <dt>Uptime</dt>
-    <dd>The relative time the system is available in a specific time period. For example: 99.9%</dd>
-</dl>  
+    <dt>★ Uptime</dt>
+    <dd>The relative time the system is available in a specific time period.</dd>
+    
+    <dt>Mean time between failures (MTBF)</dt>
+    <dd>The average time that elapses between two consecutive failures.</dd>
+    
+    <dt>Mean time to failure (MTTF)</dt>
+    <dd>The average time a (part of a) system lasts until it fails. This is a metric for unrepairable systems.</dd>
+    
+    <dt>Mean time to recovery/repair (MTTR)</dt>
+    <dd>The average time it takes to recover from a failure.</dd>
+</dl>
 
+<small>★ Key Performance Indicator</small>

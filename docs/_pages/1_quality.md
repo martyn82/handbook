@@ -14,37 +14,10 @@ some information on how to measure and control them.
 
 <dl>
     <dt>
-        <!-- <a href="{{ '/quality/functional-suitability/' | relative_url }}">Functional suitability</a> -->
-        Functional suitability
-    </dt>
-    <dd>
-        This characteristic represents the degree to which a product or system provides functions that meet stated and implied
-        needs when used under specified conditions.
-    </dd>
-    
-    <dt>
         <a href="{{ '/quality/performance-efficiency/' | relative_url }}">Performance efficiency</a>
     </dt>
     <dd>
         This characteristic represents the performance relative to the amount of resources used under stated conditions.
-    </dd>
-    
-    <dt>
-        <!-- <a href="{{ '/quality/compatibility/' | relative_url }}">Compatibility</a> -->
-        Compatibility
-    </dt>
-    <dd>
-        Degree to which a product, system or component can exchange information with other products, systems or components,
-        and/or perform its required functions, while sharing the same hardware or software environment.
-    </dd>
-    
-    <dt>
-        <!-- <a href="{{ '/quality/usability/' | relative_url }}">Usability</a> -->
-        Usability
-    </dt>
-    <dd>
-        Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness,
-        efficiency and satisfaction in a specified context of use.
     </dd>
     
     <dt>
@@ -70,10 +43,33 @@ some information on how to measure and control them.
         This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified
         to improve it, correct it or adapt it to changes in environment, and in requirements.
     </dd>
+
+    <dt>
+        <a href="{{ '/quality/functional-suitability/' | relative_url }}">Functional suitability</a>
+    </dt>
+    <dd>
+        This characteristic represents the degree to which a product or system provides functions that meet stated and implied
+        needs when used under specified conditions.
+    </dd>
+
+    <dt>
+        <a href="{{ '/quality/compatibility/' | relative_url }}">Compatibility</a>
+    </dt>
+    <dd>
+        Degree to which a product, system or component can exchange information with other products, systems or components,
+        and/or perform its required functions, while sharing the same hardware or software environment.
+    </dd>
     
     <dt>
-        <!-- <a href="{{ '/quality/portability/' | relative_url }}">Portability</a> -->
-        Portability
+        <a href="{{ '/quality/usability/' | relative_url }}">Usability</a>
+    </dt>
+    <dd>
+        Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness,
+        efficiency and satisfaction in a specified context of use.
+    </dd>
+    
+    <dt>
+        <a href="{{ '/quality/portability/' | relative_url }}">Portability</a>
     </dt>
     <dd>
         Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware,

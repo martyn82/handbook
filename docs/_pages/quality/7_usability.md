@@ -3,7 +3,6 @@ layout: page
 title: Usability
 permalink: /quality/usability/
 parent: 1_quality.md
-hidden: true
 ---
 
 _Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness,
@@ -31,3 +30,5 @@ efficiency and satisfaction in a specified context of use._
     <dd>Degree to which a product or system can be used by people with the widest range of characteristics and
     capabilities to achieve a specified goal in a specified context of use.</dd>
 </dl>
+
+<small>★ Key Performance Indicator</small>
