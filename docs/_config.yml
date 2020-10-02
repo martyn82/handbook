@@ -41,7 +41,6 @@ plugins:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-feed
 
 include:
   - _pages
