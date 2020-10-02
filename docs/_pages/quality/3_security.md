@@ -2,7 +2,7 @@
 layout: page
 title: Security
 permalink: /quality/security/
-parent: 1_quality.md
+parent: quality
 ---
 
 _Degree to which a product or system protects information and data so that persons or other products or systems have
@@ -27,7 +27,7 @@ the degree of data access appropriate to their types and levels of authorization
     <dd>Degree to which the identity of a subject or resource can be proved to be the one claimed.</dd>
 </dl>
 
-## Metrics
+## Measure
 
 Security is not measured by externally visible properties. That is because improving security is adding layers to
 _disable_ vulnerabilities and it is impossible to prove the absence of something.

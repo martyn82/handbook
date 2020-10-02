@@ -2,7 +2,7 @@
 layout: page
 title: Performance efficiency
 permalink: /quality/performance-efficiency/
-parent: 1_quality.md
+parent: quality
 ---
 
 _This characteristic represents the performance relative to the amount of resources used under stated conditions._
@@ -20,10 +20,18 @@ _This characteristic represents the performance relative to the amount of resour
     <dd>Degree to which the maximum limits of a product or system parameter meet requirements.</dd>
 </dl>
 
-## Metrics
+## Measure
 
-In the end, doing well in Performance Efficiency is serving the responsiveness (time behaviour) of the system.
-Therefore, the following are KPIs for Performance Efficiency.
+In the end, doing well in Performance Efficiency is serving the responsiveness (i.e., time behaviour) of the system.
+Therefore, _Response Time_ and _ApDex_ are considered KPIs for Performance Efficiency.
+
+Except the KPIs, the metrics are useful both for measuring Resource Utilisation and Capacity.
+The difference is in the interpretation. Where most metrics measure the _utilisation_ of the resources, what is left
+after subtracting the utilisation is the remaining _capacity_ of that resource.
+
+For example, measuring whether the CPU capacity is sufficient can be done by measuring the relative utilisation. If
+your system uses 50% CPU under normal circumstances and 75% under peak circumstances, you have an over-capacity of 25%.
+Meaning, you could cut close to 25% of the CPU power to save costs.
 
 <dl>
     <dt>★ ApDex</dt>
@@ -55,3 +63,11 @@ Therefore, the following are KPIs for Performance Efficiency.
 </dl>
 
 <small>★ Key Performance Indicator</small>
+
+## Further read
+
+<ul>
+    <li>
+        <a href="{{ '/tactics/performance-efficiency/' | relative_url }}">Performance Efficiency tactics</a>
+    </li>
+</ul>

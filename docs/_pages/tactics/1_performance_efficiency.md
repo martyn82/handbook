@@ -2,7 +2,7 @@
 layout: page
 title: Performance efficiency tactics
 permalink: /tactics/performance-efficiency/
-hidden: true
+parent: tactics
 ---
 
 Depending on the system and the cases you want to account for, there are several tactics you can use to comply to the

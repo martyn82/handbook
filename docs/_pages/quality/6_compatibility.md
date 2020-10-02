@@ -2,7 +2,7 @@
 layout: page
 title: Compatibility
 permalink: /quality/compatibility/
-parent: 1_quality.md
+parent: quality
 ---
 
 _Degree to which a product, system or component can exchange information with other products, systems or components,
@@ -17,5 +17,3 @@ and/or perform its required functions, while sharing the same hardware or softwa
     <dd>Degree to which two or more systems, products or components can exchange information and use the information
     that has been exchanged.</dd>
 </dl>
-
-<small>★ Key Performance Indicator</small>

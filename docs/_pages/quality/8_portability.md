@@ -2,7 +2,7 @@
 layout: page
 title: Portability
 permalink: /quality/portability/
-parent: 1_quality.md
+parent: quality
 ---
 
 _Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware,
@@ -21,5 +21,3 @@ software or other operational or usage environment to another._
     <dd>Degree to which a product can replace another specified software product for the same purpose in the same
     environment.</dd>
 </dl>
-
-<small>★ Key Performance Indicator</small>

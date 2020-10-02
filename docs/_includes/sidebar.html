@@ -13,21 +13,24 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
+      {% assign topics = "quality,tactics" | split: ',' %}
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null and node.hidden == null %}
           {% if node.layout == "page" and node.parent == null %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
 
-            {% if node.name == '1_quality.md' %}
-              {% for sub in pages_list %}
-                {% if sub.hidden == null and sub.parent == node.name and (page.url == sub.url or page.name == sub.parent or page.parent == sub.parent) %}
-                  <small>
-                    <a style="text-indent:1rem" class="sidebar-nav-item{% if page.url == sub.url %} active{% endif %}" href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
-                  </small>
-                {% endif %}
-              {% endfor %}
-            {% endif %}
+            {% for topic in topics %}
+              {% if node.key == topic %}
+                {% for sub in pages_list %}
+                  {% if sub.hidden == null and sub.parent == node.key and (page.url == sub.url or page.key == sub.parent or page.parent == sub.parent) %}
+                    <small>
+                      <a style="text-indent:1rem" class="sidebar-nav-item{% if page.url == sub.url %} active{% endif %}" href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
+                    </small>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
 
           {% endif %}
         {% endif %}

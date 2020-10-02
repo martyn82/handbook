@@ -2,7 +2,7 @@
 layout: page
 title: Maintainability
 permalink: /quality/maintainability/
-parent: 1_quality.md
+parent: quality
 ---
 
 _This characteristic represents the degree of effectiveness and efficiency with which a product or system can be
@@ -30,9 +30,29 @@ modified to improve it, correct it or adapt it to changes in environment, and in
     component and tests can be performed to determine whether those criteria have been met.</dd>
 </dl>
 
-## Metrics
+## Measure
+
+Measuring Maintainability is not as easy as it may seem. Measuring a well-maintainable system suffers from having to measure across various dimensions.
+What is the ultimate value of maintainability? It is partly the ability to deliver changes quickly. But a high development speed cannot solely be accounted for
+by high maintainability.
+
+The [Software Improvement Group](https://www.softwareimprovementgroup.com/) in the Netherlands researched and founded a model of measuring maintainability that
+can be a useful tool for getting top-level KPIs for this quality attribute. These KPIs combine multiple underlying metrics, categorised, to construct their
+values.
 
 <dl>
+    <dt>★ Analysability rank</dt>
+    <dd>A 5-level rank indicating the analysability of a program.</dd>
+    
+    <dt>★ Changeability rank</dt>
+    <dd>A 5-level rank indicating the changeability of a program.</dd>
+    
+    <dt>★ Stability rank</dt>
+    <dd>A 5-level rank indicating the stability of a program.</dd>
+    
+    <dt>★ Testability rank</dt>
+    <dd>A 5-level rank indicating the testability of a program.</dd>
+
     <dt>Coupling</dt>
     <dd>Efferent/afferent coupling for classes or components.</dd>
 

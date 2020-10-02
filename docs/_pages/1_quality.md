@@ -2,6 +2,7 @@
 layout: page
 title: Quality model
 permalink: /quality/
+key: quality
 ---
 
 In order to be able to tell whether a system is _fit-for-purpose_ it is useful to describe the system in terms of

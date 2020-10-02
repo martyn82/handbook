@@ -2,7 +2,7 @@
 layout: page
 title: Functional suitability
 permalink: /quality/functional-suitability/
-parent: 1_quality.md
+parent: quality
 ---
 
 _This characteristic represents the degree to which a product or system provides functions that meet stated and implied
@@ -18,5 +18,3 @@ needs when used under specified conditions._
     <dt>Functional appropriateness</dt>
     <dd>Degree to which the functions facilitate the accomplishment of specified tasks and objectives.</dd>
 </dl>
-
-<small>★ Key Performance Indicator</small>
