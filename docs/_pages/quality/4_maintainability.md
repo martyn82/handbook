@@ -34,22 +34,22 @@ modified to improve it, correct it or adapt it to changes in environment, and in
 
 <dl>
     <dt>Coupling</dt>
-    <dd></dd>
+    <dd>Efferent/afferent coupling for classes or components.</dd>
 
     <dt>Cyclomatic Complexity</dt>
-    <dd></dd>
+    <dd>The number of lineary independent paths; usually measured per unit/function.</dd>
 
     <dt>Relative Duplication</dt>
-    <dd></dd>
+    <dd>The relative amount of duplicated code, measured in duplicative blocks.</dd>
     
     <dt>Test Coverage</dt>
-    <dd></dd>
+    <dd>The relative amount of code covered by (automated) tests.</dd>
     
     <dt>Unit size</dt>
-    <dd></dd>
+    <dd>The average amount of lines of code (LoC) per unit/function.</dd>
     
     <dt>Volume</dt>
-    <dd></dd>
+    <dd>The total amount of lines of code (LoC) of the program (i.e., library or deployable unit).</dd>
 </dl>
 
 <small>★ Key Performance Indicator</small>
