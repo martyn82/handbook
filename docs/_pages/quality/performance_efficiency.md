@@ -40,20 +40,23 @@ Meaning, you could cut close to 25% of the CPU power to save costs.
     <dt>★ Response time</dt>
     <dd>The average amount of time it takes for the system to provide a response in a given time period.</dd>
     
-    <dt>Load</dt>
-    <dd>The load imposed on a system. Usually measured as three averages: last 1 minute, 5 minutes, and 15 minutes.</dd>
+    <dt>Big-O notation</dt>
+    <dd>Limiting behaviour of a function when the input tends towards a value or infinity. Static analysis of run-time behaviour.</dd>
     
     <dt>CPU usage</dt>
     <dd>The relative CPU utilisation in a time period.</dd>
     
-    <dt>Memory usage</dt>
-    <dd>The relative memory usage.</dd>
+    <dt>Disk IOPs</dt>
+    <dd>Disk read/write performance. Measured in operations per second.</dd>
     
     <dt>Disk usage</dt>
     <dd>The relative disk usage.</dd>
     
-    <dt>Disk IOPs</dt>
-    <dd>Disk read/write performance. Measured in operations per second.</dd>
+    <dt>Load</dt>
+    <dd>The load imposed on a system. Usually measured as three averages: last 1 minute, 5 minutes, and 15 minutes.</dd>
+    
+    <dt>Memory usage</dt>
+    <dd>The relative memory usage.</dd>
     
     <dt>Network IOPs</dt>
     <dd>Network throughput (sent/received) measured in operations per second.</dd>
