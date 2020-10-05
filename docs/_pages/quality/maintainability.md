@@ -73,3 +73,11 @@ values.
 </dl>
 
 <small>★ Key Performance Indicator</small>
+
+## Further read
+
+<ul>
+    <li>
+        <a href="{{ '/tactics/maintainability/' | relative_url }}">Maintainability tactics</a>
+    </li>
+</ul>
