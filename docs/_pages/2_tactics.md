@@ -5,7 +5,7 @@ permalink: /tactics/
 key: tactics
 ---
 
-Tactics are common practices you can apply to serve a specific quality attribute.
+Tactics are common practices you can apply to serve a specific [quality attribute]({{ '/quality/' | relative_url }}).
 Depending on the nature of the system (web application, mobile application, etc.) some tactics may be applicable and others may not. 
 
 <ul>
