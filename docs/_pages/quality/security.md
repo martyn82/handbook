@@ -5,8 +5,7 @@ permalink: /quality/security/
 parent: quality
 ---
 
-_Degree to which a product or system protects information and data so that persons or other products or systems have
-the degree of data access appropriate to their types and levels of authorization._
+_{{ site.quality.Security }}_
 
 <dl>
 {% for q in site.qualities.Security %}

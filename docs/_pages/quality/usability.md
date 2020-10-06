@@ -5,8 +5,7 @@ permalink: /quality/usability/
 parent: quality
 ---
 
-_Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness,
-efficiency and satisfaction in a specified context of use._
+_{{ site.quality.Usability }}_
 
 <dl>
 {% for q in site.qualities.Usability %}

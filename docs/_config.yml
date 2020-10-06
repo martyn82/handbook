@@ -59,6 +59,16 @@ include:
 
 # Site-wide data
 
+quality:
+  Compatibility: Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment.
+  'Functional suitability': This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.
+  Maintainability: This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.
+  'Performance efficiency': This characteristic represents the performance relative to the amount of resources used under stated conditions.
+  Portability: Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another.
+  Reliability: Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.
+  Security: Degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorisation.
+  Usability: Degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.
+
 qualities:
   Compatibility:
     'Co-existence': Degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product.

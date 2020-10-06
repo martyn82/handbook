@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Tactics
+title: Quality tactics
 permalink: /tactics/
 key: tactics
 ---
 
-Tactics are common practices you can apply to serve a specific [quality attribute]({{ '/quality/' | relative_url }}).
-Depending on the nature of the system (web application, mobile application, etc.) some tactics may be applicable and others may not. 
+Tactics are common practices you can apply to serve a specific [quality attribute]({{ '/quality/' | relative_url }}). 
+
+Below are links to pages with tactics for their respective quality attributes.
 
 <ul>
 {% assign pages_list = site.pages %}

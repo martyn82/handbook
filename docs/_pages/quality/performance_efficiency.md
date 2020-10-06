@@ -5,7 +5,7 @@ permalink: /quality/performance-efficiency/
 parent: quality
 ---
 
-_This characteristic represents the performance relative to the amount of resources used under stated conditions._
+_{{ site.quality['Performance efficiency'] }}_
 
 <dl>
 {% for q in site.qualities['Performance efficiency'] %}

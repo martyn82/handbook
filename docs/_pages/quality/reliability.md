@@ -5,8 +5,7 @@ permalink: /quality/reliability/
 parent: quality
 ---
 
-_Degree to which a system, product or component performs specified functions under specified conditions for a specified
-period of time._
+_{{ site.quality.Reliability }}_
 
 <dl>
 {% for q in site.qualities.Reliability %}

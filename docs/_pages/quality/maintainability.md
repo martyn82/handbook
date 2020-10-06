@@ -5,8 +5,7 @@ permalink: /quality/maintainability/
 parent: quality
 ---
 
-_This characteristic represents the degree of effectiveness and efficiency with which a product or system can be
-modified to improve it, correct it or adapt it to changes in environment, and in requirements._
+_{{ site.quality.Maintainability }}_
 
 <dl>
 {% for q in site.qualities.Maintainability %}
@@ -17,7 +16,7 @@ modified to improve it, correct it or adapt it to changes in environment, and in
 
 ## Measure
 
-Measuring Maintainability is not as easy as it may seem. Measuring a well-maintainable system suffers from having to measure across various dimensions.
+Measuring Maintainability is not as straightforward as measuring some other qualities. A system's maintainability must be evaluated across various dimensions.
 What is the ultimate value of maintainability? It is partly the ability to deliver changes quickly. But a high development speed cannot solely be accounted for
 by high maintainability.
 

@@ -5,8 +5,7 @@ permalink: /quality/compatibility/
 parent: quality
 ---
 
-_Degree to which a product, system or component can exchange information with other products, systems or components,
-and/or perform its required functions, while sharing the same hardware or software environment._
+_{{ site.quality.Compatibility }}_
 
 <dl>
 {% for q in site.qualities.Compatibility %}
