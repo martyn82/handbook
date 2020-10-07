@@ -7,6 +7,8 @@ parent: tactics-security
 key: tactics-security-detecting
 ---
 
+Detection of an attack can be done with the following tactic.
+
 <dl>
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}

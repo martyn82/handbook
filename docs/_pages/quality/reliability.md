@@ -30,20 +30,12 @@ it is about how well you can deal with them and keep the failure as short as pos
 This is what _fault tolerance_ actually is about. Having proper [tactics]({{ '/tactics/reliability/' | relative_url }}) in place to deal with failures.
 
 <dl>
-    <dt>★ Uptime</dt>
-    <dd>The relative time the system is available in a specific time period.</dd>
-    
-    <dt>Mean time between failures (MTBF)</dt>
-    <dd>The average time that elapses between two consecutive failures.</dd>
-    
-    <dt>Mean time to failure (MTTF)</dt>
-    <dd>
-        The average time a (part of a) system lasts until it fails.
-        This is a metric meant for unrepairable systems.
-    </dd>
-    
-    <dt>Mean time to recovery/repair/restore (MTTR)</dt>
-    <dd>The average time it takes to recover from a failure.</dd>
+{% for metric in site.data.metrics %}
+{% if metric.quality == 'Reliability' %}
+    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dd>{{ metric.excerpt }}</dd>
+{% endif %}
+{% endfor %}
 </dl>
 
 <small>★ Key Performance Indicator</small>

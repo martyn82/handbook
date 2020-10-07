@@ -7,6 +7,8 @@ parent: tactics-reliability
 key: tactics-reliability-prevention
 ---
 
+The tactics in this area help in preventing a fault from happening.
+
 <dl>
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}

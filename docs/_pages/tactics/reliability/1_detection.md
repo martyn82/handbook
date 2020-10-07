@@ -7,6 +7,9 @@ parent: tactics-reliability
 key: tactics-reliability-detection
 ---
 
+The tactics in this area help in detecting faults.
+Detection is a means to signal when a faulty event has occurred.
+
 <dl>
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}

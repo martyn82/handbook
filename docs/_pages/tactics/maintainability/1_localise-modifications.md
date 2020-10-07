@@ -7,7 +7,7 @@ parent: tactics-maintainability
 key: tactics-maintainability-localisemodifications
 ---
 
-'Localise modifications' refers to the maintainability strategy of keeping modifications local.
+_Localise modifications_ refers to the maintainability strategy of keeping modifications local.
 It is easier to make a change to a system if you know the change is only needed at a single spot, instead of that same rule being spread or duplicated across
 multiple modules.
 

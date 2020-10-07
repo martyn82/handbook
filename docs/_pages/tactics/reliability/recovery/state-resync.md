@@ -5,7 +5,7 @@ permalink: /tactics/reliability/state-resync/
 top: tactics
 parent: tactics-reliability-recovery
 grandparent: tactics-reliability
-excerpt: The passive and active redundancy tactics require the component being restored to hanve its state upgraded before its return to service.
+excerpt: The passive and active redundancy tactics require the component being restored to have its state upgraded before its return to service.
 ---
 
 The passive and active redundancy tactics require the component being restored to have its state upgraded before its return to service. The updating approach

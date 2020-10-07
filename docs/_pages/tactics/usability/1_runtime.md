@@ -7,6 +7,8 @@ parent: tactics-usability
 key: tactics-usability-runtime
 ---
 
+These runtime tactics help increasing the usability of a system. 
+
 <dl>
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}

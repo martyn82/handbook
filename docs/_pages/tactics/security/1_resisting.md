@@ -7,6 +7,8 @@ parent: tactics-security
 key: tactics-security-resisting
 ---
 
+These tactics help in resisting attacks. They provide layers of security that, combined, make it harder for an attacker to succeed.
+
 <dl>
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}

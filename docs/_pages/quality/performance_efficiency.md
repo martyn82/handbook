@@ -28,35 +28,12 @@ your system uses 50% CPU under normal circumstances and 75% under peak circumsta
 Meaning, you could cut close to 25% of the CPU power to save costs.
 
 <dl>
-    <dt>★ ApDex</dt>
-    <dd>The weighted average of responses that were 'satisfactory', 'tolerating', and 'frustrating'.</dd>
-
-    <dt>★ Response time</dt>
-    <dd>The average amount of time it takes for the system to provide a response in a given time period.</dd>
-    
-    <dt>Big-O notation</dt>
-    <dd>Limiting behaviour of a function when the input tends towards a value or infinity. Static analysis of run-time behaviour.</dd>
-    
-    <dt>CPU usage</dt>
-    <dd>The relative CPU utilisation in a time period.</dd>
-    
-    <dt>Disk IOPs</dt>
-    <dd>Disk read/write performance. Measured in operations per second.</dd>
-    
-    <dt>Disk usage</dt>
-    <dd>The relative disk usage.</dd>
-    
-    <dt>Load</dt>
-    <dd>The load imposed on a system. Usually measured as three averages: last 1 minute, 5 minutes, and 15 minutes.</dd>
-    
-    <dt>Memory usage</dt>
-    <dd>The relative memory usage.</dd>
-    
-    <dt>Network IOPs</dt>
-    <dd>Network throughput (sent/received) measured in operations per second.</dd>
-    
-    <dt>Throughput</dt>
-    <dd>Throughput measured in requests per time unit.</dd>
+{% for metric in site.data.metrics %}
+{% if metric.quality == 'Performance efficiency' %}
+    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dd>{{ metric.excerpt }}</dd>
+{% endif %}
+{% endfor %}
 </dl>
 
 <small>★ Key Performance Indicator</small>

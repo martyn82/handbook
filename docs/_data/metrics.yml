@@ -1,0 +1,129 @@
+# Maintainability
+- name: Analysability rank
+  excerpt: A 5-level rank indicating the analysability of a program.
+  quality: Maintainability
+  kpi: true
+
+- name: Changeability rank
+  excerpt: A 5-level rank indicating the changeability of a program.
+  quality: Maintainability
+  kpi: true
+
+- name: Stability rank
+  excerpt: A 5-level rank indicating the stability of a program.
+  quality: Maintainability
+  kpi: true
+
+- name: Testability rank
+  excerpt: A 5-level rank indicating the testability of a program.
+  quality: Maintainability
+  kpi: true
+
+- name: Coupling
+  excerpt: Efferent/afferent coupling for classes or components.
+  quality: Maintainability
+
+- name: Cyclomatic complexity
+  excerpt: The number of lineary independent paths; usually measured per unit/function.
+  quality: Maintainability
+
+- name: Relative duplication
+  excerpt: The relative amount of duplicated code, measured in duplicative blocks.
+  quality: Maintainability
+
+- name: Test coverage
+  excerpt: The relative amount of code covered by (automated) tests.
+  quality: Maintainability
+
+- name: Unit size
+  excerpt: The average amount of lines of code (LoC) per unit/function.
+  quality: Maintainability
+
+- name: Volume
+  excerpt: The total amount of lines of code (LoC) of the program (i.e., library or deployable unit).
+  quality: Maintainability
+
+# Performance efficiency
+- name: ApDex
+  excerpt: The weighted average of responses that were 'satisfactory', 'tolerating', and 'frustrating'.
+  quality: Performance efficiency
+  kpi: true
+
+- name: Response time
+  excerpt: The average amount of time it takes for the system to provide a response in a given time period.
+  quality: Performance efficiency
+  kpi: true
+
+- name: Big-O
+  excerpt: Limiting behaviour of a function when the input tends towards a value or infinity. Static analysis of run-time behaviour.
+  quality: Performance efficiency
+
+- name: CPU usage
+  excerpt: The relative CPU utilisation in a time period.
+  quality: Performance efficiency
+
+- name: Disk IOPs
+  excerpt: Disk read/write performance. Measured in operations per second.
+  quality: Performance efficiency
+
+- name: Disk usage
+  excerpt: The relative disk usage.
+  quality: Performance efficiency
+
+- name: Load
+  excerpt: 'The load imposed on a system. Usually measured as three averages: last 1 minute, 5 minutes, and 15 minutes.'
+  quality: Performance efficiency
+
+- name: Memory usage
+  excerpt: The relative memory usage.
+  quality: Performance efficiency
+
+- name: Network IOPs
+  excerpt: Network throughput (sent/received) measured in operations per second.
+  quality: Performance efficiency
+
+- name: Throughput
+  excerpt: Throughput measured in requests per time unit.
+  quality: Performance efficiency
+
+# Reliability
+- name: Uptime
+  excerpt: The relative time the system is available in a specific time period.
+  quality: Reliability
+  kpi: true
+
+- name: Mean time Between Failures (MTBF)
+  excerpt: The average time that elapses between two consecutive failures.
+  quality: Reliability
+
+- name: Mean time to Failure (MTTF)
+  excerpt: The average time a (part of a) system lasts until it fails. This is a metric meant for unrepairable systems.
+  quality: Reliability
+
+- name: Mean time to Recovery/Repair/Restore (MTTR)
+  excerpt: The average time it takes to recover from a failure.
+  quality: Reliability
+
+# Security
+- name: Open known security vulnerabilities
+  excerpt: The number of open known security vulnerabilities categorised as Critical, High, Medium, Low, and Informational gives an overview of the state of security in the system.
+  quality: Security
+  kpi: true
+
+- name: Number of passed security (regression) tests
+  excerpt: The number of passed security (regression) tests give an indication to what kind of attacks you're protected against. Each solved open security issue should get a test that is run regularly (manually or automatically).
+  quality: Security
+  group: Attack prevention
+  kpi: true
+
+- name: Mean time to Detect (MTTD)
+  excerpt: The average time it takes to detect an attack.
+  quality: Security
+  group: Attack detection
+  kpi: true
+
+- name: Mean time to Contain (MTTC)
+  excerpt: The average time it takes to contain an attack.
+  quality: Security
+  group: Attack response
+  kpi: true

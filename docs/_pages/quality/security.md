@@ -23,40 +23,22 @@ Therefore, we need to specify _what_ we're trying to achieve and measure the thi
 distinguish four main areas, each with its own metric.
 
 <dl>
-    <dt>★ Open known security vulnerabilities</dt>
-    <dd>
-        The number of open known security vulnerabilities categorised as Critical, High, Medium, Low, and Informational gives an overview
-        of the state of security in the system.
-    </dd>
-</dl>
-
-<dl>
-    <dt>Attack prevention</dt>
+{% for metric in site.data.metrics %}
+{% if metric.quality == 'Security' %}
+    {% if metric.group != null %}
+    <dt>{{ metric.group }}</dt>
     <dd>
         <dl>
-            <dt>★ Number of passed security tests</dt>
-            <dd>
-                The number of passed security (regression) tests give an indication to what kind of attacks you're protected against.
-                Each solved open security issue should get a test that is run regularly (manually or automatically).
-            </dd>
+            <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+            <dd>{{ metric.excerpt }}</dd>
         </dl>
     </dd>
-
-    <dt>Attack detection</dt>
-    <dd>
-        <dl>
-            <dt>★ Mean time to Detect (MTTD)</dt>
-            <dd>The average time it takes to detect an attack.</dd>
-        </dl>
-    </dd>
-
-    <dt>Attack response</dt>
-    <dd>
-        <dl>
-            <dt>★ Mean time to Contain (MTTC)</dt>
-            <dd>The average time it takes to contain an attack.</dd>
-        </dl>
-    </dd>
+    {% else %}
+    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dd>{{ metric.excerpt }}</dd>
+    {% endif %}
+{% endif %}
+{% endfor %}
 </dl>
 
 <small>★ Key Performance Indicator</small>

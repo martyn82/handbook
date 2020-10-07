@@ -7,6 +7,8 @@ parent: tactics-performance
 key: tactics-performance-arbitration
 ---
 
+Resource arbitration uses an automated _manager_ to manage resources.
+
 <dl>
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}

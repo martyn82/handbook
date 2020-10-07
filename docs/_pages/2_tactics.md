@@ -7,10 +7,10 @@ key: tactics
 
 Tactics are common practices you can apply to increase the level of a specific [quality attribute]({{ '/quality/' | relative_url }}). 
 
-The tactics here are listed by their respective quality attribute and grouped in quality strategies. For example, the maintainability tactics are grouped
-by strategies such as 'Localise modifications' and 'Prevent ripple effects'.
+The tactics here are listed by their respective quality attribute and grouped in areas. The maintainability tactics are grouped
+by strategies such as _Localise modifications_ and _Prevent ripple effects_.
 
-Click on the quality attribute to get a complete list of tactics for that attribute, or click on a group to zoom in on that strategy only.
+Click on the quality attribute to get a complete list of tactics for that attribute, or click on a group to zoom in on that area only.
 
 <dl>
 {% assign pages_list = site.pages %}

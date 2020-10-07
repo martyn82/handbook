@@ -7,7 +7,7 @@ parent: tactics-maintainability
 key: tactics-maintainability-preventrippleeffects
 ---
 
-In the context of maintainability, ripple effects are the propagation of modifications from the 'source' module to its dependencies and possibly even
+In the context of maintainability, ripple effects are the propagation of modifications from the source module to its dependencies and possibly even
 dependencies of the dependencies. 
 
 The tactics below help in preventing ripple effects.

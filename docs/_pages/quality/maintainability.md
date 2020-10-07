@@ -25,35 +25,12 @@ can be a useful tool for getting top-level KPIs for this quality attribute. Thes
 values.
 
 <dl>
-    <dt>★ Analysability rank</dt>
-    <dd>A 5-level rank indicating the analysability of a program.</dd>
-    
-    <dt>★ Changeability rank</dt>
-    <dd>A 5-level rank indicating the changeability of a program.</dd>
-    
-    <dt>★ Stability rank</dt>
-    <dd>A 5-level rank indicating the stability of a program.</dd>
-    
-    <dt>★ Testability rank</dt>
-    <dd>A 5-level rank indicating the testability of a program.</dd>
-
-    <dt>Coupling</dt>
-    <dd>Efferent/afferent coupling for classes or components.</dd>
-
-    <dt>Cyclomatic Complexity</dt>
-    <dd>The number of lineary independent paths; usually measured per unit/function.</dd>
-
-    <dt>Relative Duplication</dt>
-    <dd>The relative amount of duplicated code, measured in duplicative blocks.</dd>
-    
-    <dt>Test Coverage</dt>
-    <dd>The relative amount of code covered by (automated) tests.</dd>
-    
-    <dt>Unit size</dt>
-    <dd>The average amount of lines of code (LoC) per unit/function.</dd>
-    
-    <dt>Volume</dt>
-    <dd>The total amount of lines of code (LoC) of the program (i.e., library or deployable unit).</dd>
+{% for metric in site.data.metrics %}
+{% if metric.quality == 'Maintainability' %}
+    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dd>{{ metric.excerpt }}</dd>
+{% endif %}
+{% endfor %}
 </dl>
 
 <small>★ Key Performance Indicator</small>
