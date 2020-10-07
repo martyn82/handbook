@@ -5,6 +5,7 @@ permalink: /tactics/usability/maintain-model-of-task/
 top: tactics
 grandparent: tactics-usability
 parent: tactics-usability-runtime
+excerpt: The task model is used to determine context so the system can have some idea of what the user is attempting and provide various kinds of assistance.
 ---
 
 The task model is used to determine context so the system can have some idea of what the user is attempting and provide various kinds of assistance. For

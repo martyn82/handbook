@@ -1,4 +1,4 @@
-# The Software Architect's Handbook
+# The Tech Leader's Handbook
 
 The aim of this repository is to bundle a collection of patterns, practices, heuristics and tools
 for today's technical leaders.

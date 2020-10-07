@@ -5,6 +5,7 @@ permalink: /tactics/reliability/shadow-operation/
 top: tactics
 parent: tactics-reliability-recovery
 grandparent: tactics-reliability
+excerpt: A previously failed component may be run in "shadow mode" for a short time to make sure it mimics the behaviour of the working components before restoring it to service.
 ---
 
 A previously failed component may be run in "shadow mode" for a short time to make sure that it mimics the behavior of the working components before restoring

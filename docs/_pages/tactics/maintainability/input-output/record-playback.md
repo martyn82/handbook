@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/record-playback/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-inputoutput
 top: tactics
+excerpt: Record/playback refers to both capturing information crossing an interface and using it as input into the test harness.
 ---
 
 Record/playback refers to both capturing information crossing an interface and using it as input into the test harness. The information crossing an interface

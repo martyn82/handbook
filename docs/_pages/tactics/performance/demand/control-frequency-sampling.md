@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/control-frequency-sampling/
 top: tactics
 parent: tactics-performance-demand
 grandparent: tactics-performance
+excerpt: If there is no control over the arrival of external events, queued events can be sampled at a lower frequency. For example rate limiting.
 ---
 
 If there is no control over the arrival of externally generated events, queued requests can be sampled at a lower frequency, possibly resulting in the loss of

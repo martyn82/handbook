@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/anticipate-expected-changes/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-localisemodifications
 top: tactics
+excerpt: Considering the set of envisioned changes provides a way to evaluate a particular assignment of responsibilities.
 ---
 
 Considering the set of envisioned changes provides a way to evaluate a particular assignment of responsibilities. The basic question is: "For each change, does

@@ -5,6 +5,7 @@ permalink: /tactics/usability/maintain-model-of-user/
 top: tactics
 grandparent: tactics-usability
 parent: tactics-usability-runtime
+excerpt: It determines the user's knowledge of the system, the user's behaviour in terms of expected response time, and other aspects specific to a user or a class of users.
 ---
 
 It determines the user's knowledge of the system, the user's behavior in terms of expected response time, and other aspects specific to a user or a class of

@@ -5,6 +5,7 @@ permalink: /tactics/security/access/
 top: tactics
 grandparent: tactics-security
 parent: tactics-security-resisting
+excerpt: Firewalls restrict access based on message source or destination port. Messages from unknown sources may be a form of an attack.
 ---
 
 Firewalls restrict access based on message source or destination port. Messages from unknown sources may be a form of an attack. It is not always possible to

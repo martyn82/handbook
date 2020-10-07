@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/scheduling-policy/
 top: tactics
 parent: tactics-performance-arbitration
 grandparent: tactics-performance
+excerpt: Whenever there is contention for a resource, the resource (processor, buffers, networks) must be scheduled.
 ---
 
 Whenever there is contention for a resource, the resource must be scheduled. Processors are scheduled, buffers are scheduled, and networks are scheduled.

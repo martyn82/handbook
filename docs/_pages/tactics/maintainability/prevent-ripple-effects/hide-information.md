@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/hide-information/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-preventrippleeffects
 top: tactics
+excerpt: Information hiding is the decomposition of the responsibilities for an entity (a system or some decomposition of a system) into smaller pieces and choosing which information to make private and which to make public.
 ---
 
 Information hiding is the decomposition of the responsibilities for an entity (a system or some decomposition of a system) into smaller pieces and choosing

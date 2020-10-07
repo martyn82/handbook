@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/adherence-to-defined-protocols/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-deferbindingtime
 top: tactics
+excerpt: Allow runtime binding of independent processes.
 ---
 
 Allowing runtime binding of independent processes.

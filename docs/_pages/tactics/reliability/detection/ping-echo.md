@@ -5,6 +5,7 @@ permalink: /tactics/reliability/ping-echo/
 top: tactics
 parent: tactics-reliability-detection
 grandparent: tactics-reliability
+excerpt: One component issues a ping and expects to receive back an echo within a predefined time from the component under scrutiny.
 ---
 
 One component issues a ping and expects to receive back an echo within a predefined time from the component under scrutiny.

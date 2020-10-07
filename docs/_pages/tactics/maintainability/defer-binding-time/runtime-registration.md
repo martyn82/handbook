@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/runtime-registration/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-deferbindingtime
 top: tactics
+excerpt: It supports plug-and-play operation at the cost of additional overhead to manage the registration.
 ---
 
 Supporting plug-and-play operation at the cost of additional overhead to manage the registration. Publish/subscribe registration, for example, can be

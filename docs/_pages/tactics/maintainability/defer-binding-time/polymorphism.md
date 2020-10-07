@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/polymorphism/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-deferbindingtime
 top: tactics
+excerpt: Allow late binding of method calls.
 ---
 
 Allowing late binding of method calls.

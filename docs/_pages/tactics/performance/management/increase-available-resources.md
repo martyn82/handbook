@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/increase-available-resources/
 top: tactics
 parent: tactics-performance-management
 grandparent: tactics-performance
+excerpt: Faster processors, additional processors, additional memory, and faster networks all have the potential for reducing latency.
 ---
 
 Faster processors, additional processors, additional memory, and faster networks all have the potential for reducing latency. Cost is usually a consideration

@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/maintain-semantic-coherence/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-localisemodifications
 top: tactics
+excerpt: Semantic coherence refers to the relationships among responsibilities in a module. The goal is to ensure that all of these responsibilities work together without excessive reliance on other modules.
 ---
 
 Semantic coherence refers to the relationships among responsibilities in a module. The goal is to ensure that all of these responsibilities work together

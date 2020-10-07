@@ -25,11 +25,11 @@
                 {% for sub in pages_list %}
                   {% if sub.hidden == null and sub.parent == node.key and (page.key == sub.parent or page.parent == sub.parent or page.top == sub.parent) %}
                     <small>
-                      <a style="text-indent:1rem" class="sidebar-nav-item{% if page.url == sub.url %} active{% endif %}" href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
+                      <a class="level-1 sidebar-nav-item{% if page.url == sub.url %} active{% endif %}" href="{{ sub.url | relative_url }}">{{ sub.title }}</a>
 
                       {% for sub2 in pages_list %}
                         {% if sub2.hidden == null and sub2.top == node.key and sub2.parent == sub.key and (page.key == sub2.parent or page.parent == sub2.parent or (sub2.key != null and page.parent == sub2.key) or (page.grandparent != null and page.grandparent == sub.key)) %}
-                          <a style="text-indent:2rem" class="sidebar-nav-item{% if page.url == sub2.url or page.parent == sub2.key %} active{% endif %}" href="{{ sub2.url | relative_url }}">{{ sub2.title }}</a>
+                          <a class="level-2 sidebar-nav-item{% if page.url == sub2.url or page.parent == sub2.key %} active{% endif %}" href="{{ sub2.url | relative_url }}">{{ sub2.title }}</a>
                         {% endif %}
                       {% endfor %}
                     </small>

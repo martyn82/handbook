@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/maintain-existing-interfaces/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-preventrippleeffects
 top: tactics
+excerpt: If B depends on the name and signature of an interface A, maintaining this interface and its syntax allows B to remain unchanged.
 ---
 
 If B depends on the name and signature of an interface A, maintaining this interface and its syntax allows B to remain unchanged.

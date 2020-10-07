@@ -5,6 +5,7 @@ permalink: /tactics/security/authenticate/
 top: tactics
 grandparent: tactics-security
 parent: tactics-security-resisting
+excerpt: Authentication is ensuring that a user or remote computer is actually who it purports to be.
 ---
 
 Authentication is ensuring that a user or remote computer is actually who it purports to be. Passwords, one-time passwords, digital certificates, keys,

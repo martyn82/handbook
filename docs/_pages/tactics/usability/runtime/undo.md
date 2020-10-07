@@ -5,6 +5,7 @@ permalink: /tactics/usability/undo/
 top: tactics
 grandparent: tactics-usability
 parent: tactics-usability-runtime
+excerpt: Support the user in error correction by enabling undo of a previously completed task.
 ---
 
 Support the user in error correction by enabling undo of a previously completed task.

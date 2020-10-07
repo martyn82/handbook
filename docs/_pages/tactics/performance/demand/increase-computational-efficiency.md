@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/increase-computational-efficiency/
 top: tactics
 parent: tactics-performance-demand
 grandparent: tactics-performance
+excerpt: Improve efficiency of algorithms to lower resource utilisation, which frees capacity for the system to expand.
 ---
 
 One step in the processing of an event or a message is applying some algorithm. Improving the algorithms used in critical areas will decrease latency.

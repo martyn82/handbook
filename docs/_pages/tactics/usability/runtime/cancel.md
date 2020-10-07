@@ -5,6 +5,7 @@ permalink: /tactics/usability/cancel/
 top: tactics
 grandparent: tactics-usability
 parent: tactics-usability-runtime
+excerpt: Support the user in error correction by enabling cancellation of an initiated task.
 ---
 
 Support the user in error correction by enabling cancellation of an initiated task.

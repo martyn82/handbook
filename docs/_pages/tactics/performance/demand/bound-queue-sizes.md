@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/bound-queue-sizes/
 top: tactics
 parent: tactics-performance-demand
 grandparent: tactics-performance
+excerpt: Setting an appropriate limit on the amount of queued arrivals prevents overloading the system.
 ---
 
 This controls the maximum number of queued arrivals and consequently the resources used to process the arrivals.

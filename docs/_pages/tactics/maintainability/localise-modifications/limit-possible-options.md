@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/limit-possible-options/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-localisemodifications
 top: tactics
+excerpt: Modifications, especially within a product line, may be far ranging and hence affect many modules.
 ---
 
 Modifications, especially within a product line, may be far ranging and hence affect many modules. Restricting the possible options will reduce the effect of

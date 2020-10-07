@@ -5,6 +5,7 @@ permalink: /tactics/usability/separate-user-interface/
 top: tactics
 grandparent: tactics-usability
 parent: tactics-usability-designtime
+excerpt: Localising expected changes is the rationale for semantic coherence.
 ---
 
 Localising expected changes is the rationale for semantic coherence. Since the user interface is expected to change frequently both during development and after

@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/maintain-multiple-copies/
 top: tactics
 parent: tactics-performance-management
 grandparent: tactics-performance
+excerpt: Clients in a client-server pattern are replicas of the computation. The purpose of replicas is to reduce the contention that would occur if all computations took place on a central server.
 ---
 
 Clients in a client-server pattern are replicas of the computation. The purpose of replicas is to reduce the contention that would occur if all computations

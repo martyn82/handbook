@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/component-replacement/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-deferbindingtime
 top: tactics
+excerpt: Allow load-time binding.
 ---
 
 Allowing load time binding.

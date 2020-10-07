@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/introduce-concurrency/
 top: tactics
 parent: tactics-performance-management
 grandparent: tactics-performance
+excerpt: If requests can be processed in parallel, the blocked time can be reduced.
 ---
 
 If requests can be processed in parallel, the blocked time can be reduced. Concurrency can be introduced by processing different streams of events on different

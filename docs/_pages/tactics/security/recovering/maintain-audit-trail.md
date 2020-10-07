@@ -5,6 +5,7 @@ permalink: /tactics/security/audit-trail/
 top: tactics
 grandparent: tactics-security
 parent: tactics-security-recovering
+excerpt: Identifying the attacker can be done using audit trails.
 ---
 
 Identifying the attacker can be done using audit trails. An audit trail is a copy of each transaction applied to the data in the system together with

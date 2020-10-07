@@ -5,6 +5,7 @@ permalink: /tactics/reliability/removal-from-service/
 top: tactics
 parent: tactics-reliability-prevention
 grandparent: tactics-reliability
+excerpt: This tactic is to remove a component of the system from operation to undergo some activities to prevent anticipated failures.
 ---
 
 This tactic removes a component of the system from operation to undergo some activities to prevent anticipated failures.

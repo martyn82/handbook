@@ -5,6 +5,7 @@ permalink: /tactics/security/intrusion-detection/
 top: tactics
 grandparent: tactics-security
 parent: tactics-security-detecting
+excerpt: The detection of an attack is usually through an intrusion detection system.
 ---
 
 The detection of an attack is usually through an intrusion detection system. Such systems work by comparing network traffic patterns to a database.

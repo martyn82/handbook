@@ -5,6 +5,7 @@ permalink: /tactics/reliability/transaction/
 top: tactics
 parent: tactics-reliability-prevention
 grandparent: tactics-reliability
+excerpt: A transaction is a bundling of several sequential steps such that the entire bundle can be undone at once.
 ---
 
 A transaction is the bundling of several sequential steps such that the entire bundle can be undone at once.

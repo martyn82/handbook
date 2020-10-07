@@ -5,8 +5,12 @@ permalink: /tactics/
 key: tactics
 ---
 
-Tactics are common practices you can apply to serve a specific [quality attribute]({{ '/quality/' | relative_url }}). 
-Below is a list of tactics for their respective quality attributes. 
+Tactics are common practices you can apply to increase the level of a specific [quality attribute]({{ '/quality/' | relative_url }}). 
+
+The tactics here are listed by their respective quality attribute and grouped in quality strategies. For example, the maintainability tactics are grouped
+by strategies such as 'Localise modifications' and 'Prevent ripple effects'.
+
+Click on the quality attribute to get a complete list of tactics for that attribute, or click on a group to zoom in on that strategy only.
 
 <dl>
 {% assign pages_list = site.pages %}

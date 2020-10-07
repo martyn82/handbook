@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/manage-event-rate/
 top: tactics
 parent: tactics-performance-demand
 grandparent: tactics-performance
+excerpt: If it is possible to reduce the sampling frequency, demand can be reduced. Reducing the sampling frequency to give the system more 'air'. Common patterns here are throttling and backpressure.
 ---
 
 If it is possible to reduce the sampling frequency at which environmental variables are monitored, demand can be reduced.

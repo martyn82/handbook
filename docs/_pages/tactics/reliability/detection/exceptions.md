@@ -5,6 +5,7 @@ permalink: /tactics/reliability/exceptions/
 top: tactics
 parent: tactics-reliability-detection
 grandparent: tactics-reliability
+excerpt: A common way of detecting faults is by raising an appropriate exception.
 ---
 
 A common way of detecting faults is by raising an appropriate exception. Proper handling based on the type of exception can be a way of recovering from the

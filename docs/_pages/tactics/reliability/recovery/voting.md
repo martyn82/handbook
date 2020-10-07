@@ -5,6 +5,7 @@ permalink: /tactics/reliability/voting/
 top: tactics
 parent: tactics-reliability-recovery
 grandparent: tactics-reliability
+excerpt: This method is used to correct faulty operation of algorithms or failure of a processor and is often used in control systems.
 ---
 
 Processes running on redundant processors each take equivalent input and compute a simple output value that is sent to a voter. If the voter detects deviant

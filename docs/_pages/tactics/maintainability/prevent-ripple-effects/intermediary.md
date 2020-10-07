@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/intermediary/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-preventrippleeffects
 top: tactics
+excerpt: If B has any type of dependency on A other than semantic, it is possible to insert an intermediary between B and A that manages activities associated with the dependency.
 ---
 
 If B has any type of dependency on A other than semantic, it is possible to insert an intermediary between B and A that manages activities associated with the

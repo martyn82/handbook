@@ -5,6 +5,7 @@ permalink: /tactics/reliability/active-redundancy/
 top: tactics
 parent: tactics-reliability-recovery
 grandparent: tactics-reliability
+excerpt: All redundant components respond to events in parallel.
 ---
 
 All redundant components respond to events in parallel. Consequently, they are all in the same state. The response from only one component is used (usually the

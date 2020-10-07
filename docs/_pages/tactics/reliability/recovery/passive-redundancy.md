@@ -5,6 +5,7 @@ permalink: /tactics/reliability/passive-redundancy/
 top: tactics
 parent: tactics-reliability-recovery
 grandparent: tactics-reliability
+excerpt: One (primary) component responds to events and informs the other components (standbys) of state updates they must make.
 ---
 
 One (primary) component responds to events and informs the other components (standbys) of state updates they must make.

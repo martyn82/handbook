@@ -5,6 +5,7 @@ permalink: /tactics/reliability/heartbeat/
 top: tactics
 parent: tactics-reliability-detection
 grandparent: tactics-reliability
+excerpt: A component emits a heartbeat message periodically and another component listens for it.
 ---
 
 A component emits a heartbeat message periodically and another component listens for it. If the heartbeat fails, the originating component is assumed to have

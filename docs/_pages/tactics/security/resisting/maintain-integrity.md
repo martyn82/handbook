@@ -5,6 +5,7 @@ permalink: /tactics/security/integrity/
 top: tactics
 grandparent: tactics-security
 parent: tactics-security-resisting
+excerpt: Data should be delivered as intended.
 ---
 
 Data should be delivered as intended. It can have redundant information encoded in it, such as checksums or hash results, which can be encrypted either along

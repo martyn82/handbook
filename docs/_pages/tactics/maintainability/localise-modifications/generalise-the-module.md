@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/generalise-the-module/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-localisemodifications
 top: tactics
+excerpt: Making a module more general allows it to compute a broader range of functions based on input.
 ---
 
 Making a module more general allows it to compute a broader range of functions based on input. The input can be thought of as defining a language for the

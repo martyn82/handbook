@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/restrict-communication-paths/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-preventrippleeffects
 top: tactics
+excerpt: Restrict the modules with which a given module shares data.
 ---
 
 Restrict the modules with which a given module shares data. That is, reduce the number of modules that consume data produced by the given module and the number

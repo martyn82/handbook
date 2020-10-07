@@ -5,6 +5,7 @@ permalink: /tactics/security/confidentiality/
 top: tactics
 grandparent: tactics-security
 parent: tactics-security-resisting
+excerpt: Data should be protected from unauthorised access.
 ---
 
 Data should be protected from unauthorized access. Confidentiality is usually achieved by applying some form of encryption to data and to communication links.

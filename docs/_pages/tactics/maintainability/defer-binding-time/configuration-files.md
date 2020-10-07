@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/configuration-files/
 grandparent: tactics-maintainability
 parent: tactics-maintainability-deferbindingtime
 top: tactics
+excerpt: Files that are intended to set parameters at startup.
 ---
 
 Files that are intended to set parameters at startup.

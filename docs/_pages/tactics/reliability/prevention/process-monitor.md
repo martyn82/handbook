@@ -5,6 +5,7 @@ permalink: /tactics/reliability/process-monitor/
 top: tactics
 parent: tactics-reliability-prevention
 grandparent: tactics-reliability
+excerpt: Once a fault in a process has been detected, a monitoring process can delete the non-performing process and create a new instance of it, initialised to some appropriate state.
 ---
 
 Once a fault in a process has been detected, a monitoring process can delete the nonperforming process and create a new instance of it, initialized to some

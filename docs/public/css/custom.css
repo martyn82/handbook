@@ -17,3 +17,17 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.sidebar-nav-item.level-2 {
+    font-size: smaller;
+}
+
+@media (min-width: 48em) {
+    .sidebar-nav-item.level-1 {
+        text-indent: 1rem;
+    }
+
+    .sidebar-nav-item.level-2 {
+        text-indent: 2rem;
+    }
+}

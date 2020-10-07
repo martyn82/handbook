@@ -5,6 +5,7 @@ permalink: /tactics/usability/maintain-model-of-system/
 top: tactics
 grandparent: tactics-usability
 parent: tactics-usability-runtime
+excerpt: It determines the expected system behavior so that appropriate feedback can be given to the user.
 ---
 
 It determines the expected system behavior so that appropriate feedback can be given to the user. The system model predicts items such as the time needed to

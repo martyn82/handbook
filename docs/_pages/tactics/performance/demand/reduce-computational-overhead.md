@@ -5,6 +5,7 @@ permalink: /tactics/performance-efficiency/reduce-computational-overhead/
 top: tactics
 parent: tactics-performance-demand
 grandparent: tactics-performance
+excerpt: Without request for a resource, the resource can be scaled down.
 ---
 
 If there is no request for a resource, processing needs are reduced.

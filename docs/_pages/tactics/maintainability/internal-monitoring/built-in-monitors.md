@@ -5,6 +5,7 @@ permalink: /tactics/maintainability/built-in-monitors/
 parent: tactics-maintainability-internalmonitoring
 top: tactics
 grandparent: tactics-maintainability
+excerpt: The component can maintain state, performance load, capacity, security, or other information accessible through an interface.
 ---
 
 The component can maintain state, performance load, capacity, security, or other information accessible through an interface. This interface can be a permanent

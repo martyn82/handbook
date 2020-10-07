@@ -14,6 +14,7 @@ key: tactics-usability-runtime
         <dt>
             <a href="{{ node.url | relative_url }}">{{ node.title }}</a>
         </dt>
+        <dd>{{ node.excerpt }}</dd>
     {% endif %}
 {% endfor %}
 </dl>
