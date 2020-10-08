@@ -13,7 +13,9 @@ Below is a list of metrics grouped by their respective area of measurement.
 {% assign groups = 'Team performance,Maintainability,Performance efficiency,Reliability,Security' | split: ',' %}
 {% for group in groups %}
     <dt>
-        <a href="{{ '/metrics/team-performance/' | relative_url }}">{{ group }}</a>
+        {% assign g = group | slugify %}
+        {% assign url = '/metrics/' | append: g | downcase | append: '/' %}
+        <a href="{{ url | relative_url }}">{{ group }}</a>
     </dt>
     <dd>
         <dl>
