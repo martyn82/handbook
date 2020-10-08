@@ -127,3 +127,24 @@
   quality: Security
   group: Attack response
   kpi: true
+
+# SDP
+- name: Deployment frequency
+  excerpt: The number of deployments per time period.
+  quality: Team performance
+  kpi: true
+
+- name: Lead time for Changes
+  excerpt: The time it takes to go from code committed to code successfully running in production.
+  quality: Team performance
+  kpi: true
+
+- name: Mean time to Recovery/Repair/Restore (MTTR)
+  excerpt: The average time it takes to recover from a failure.
+  quality: Team performance
+  kpi: true
+
+- name: Change failure rate
+  excerpt: The rate at which deployment failures occur in production that require immediate remedy.
+  quality: Team performance
+  kpi: true

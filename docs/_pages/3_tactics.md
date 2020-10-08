@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quality tactics
+title: Tactics
 permalink: /tactics/
 key: tactics
 ---
