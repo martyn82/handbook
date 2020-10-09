@@ -40,7 +40,7 @@
   quality: Maintainability
 
 - name: Volume
-  excerpt: The total amount of lines of code (LoC) of the program (i.e., library or deployable unit).
+  excerpt: The total amount of man-years of the program (i.e., library or deployable unit).
   quality: Maintainability
 
 # Performance efficiency
