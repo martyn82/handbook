@@ -32,7 +32,11 @@ This is what _fault tolerance_ actually is about. Having proper [tactics]({{ '/t
 <dl>
 {% for metric in site.data.metrics %}
 {% if metric.quality == 'Reliability' %}
-    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dt>{% if metric.kpi == true %}★ {% endif %}
+        {% assign name = metric.name | slugify %}
+        {% assign url = '/metrics/' | append: name | append: '/' %}
+        <a href="{{ url | relative_url }}">{{ metric.name }}</a>
+    </dt>
     <dd>{{ metric.excerpt }}</dd>
 {% endif %}
 {% endfor %}

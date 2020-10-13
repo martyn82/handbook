@@ -29,12 +29,20 @@ distinguish four main areas, each with its own metric.
     <dt>{{ metric.group }}</dt>
     <dd>
         <dl>
-            <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+            <dt>{% if metric.kpi == true %}★ {% endif %}
+                {% assign name = metric.name | slugify %}
+                {% assign url = '/metrics/' | append: name | append: '/' %}
+                <a href="{{ url | relative_url }}">{{ metric.name }}</a>
+            </dt>
             <dd>{{ metric.excerpt }}</dd>
         </dl>
     </dd>
     {% else %}
-    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dt>{% if metric.kpi == true %}★ {% endif %}
+        {% assign name = metric.name | slugify %}
+        {% assign url = '/metrics/' | append: name | append: '/' %}
+        <a href="{{ url | relative_url }}">{{ metric.name }}</a>
+    </dt>
     <dd>{{ metric.excerpt }}</dd>
     {% endif %}
 {% endif %}

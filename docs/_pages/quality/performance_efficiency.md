@@ -30,7 +30,11 @@ Meaning, you could cut close to 25% of the CPU power to save costs.
 <dl>
 {% for metric in site.data.metrics %}
 {% if metric.quality == 'Performance efficiency' %}
-    <dt>{% if metric.kpi == true %}★ {% endif %}{{ metric.name }}</dt>
+    <dt>{% if metric.kpi == true %}★ {% endif %}
+        {% assign name = metric.name | slugify %}
+        {% assign url = '/metrics/' | append: name | append: '/' %}
+        <a href="{{ url | relative_url }}">{{ metric.name }}</a>
+    </dt>
     <dd>{{ metric.excerpt }}</dd>
 {% endif %}
 {% endfor %}
