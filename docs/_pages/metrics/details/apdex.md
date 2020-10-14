@@ -6,7 +6,13 @@ parent: metrics-performanceefficiency
 top: metrics
 ---
 
-_The weighted average of responses that were 'satisfactory', 'tolerating', and 'frustrating'._
+{% for m in site.data.metrics %}
+    {% if m.name == 'ApDex' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

@@ -6,7 +6,13 @@ parent: metrics-teamperformance
 top: metrics
 ---
 
-_The rate at which deployment failures occur in production that require immediate remedy._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Change failure rate' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

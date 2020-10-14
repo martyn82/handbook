@@ -6,7 +6,13 @@ parent: metrics-performanceefficiency
 top: metrics
 ---
 
-_Disk read/write performance. Measured in operations per second._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Disk IOPs' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

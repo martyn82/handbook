@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Mean time to contain
+title: Mean time to Contain (MTTC)
 permalink: /metrics/mean-time-to-contain-mttc/
 parent: metrics-security
 top: metrics
 ---
 
-_The average time it takes to contain an attack._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Mean time to Contain (MTTC)' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

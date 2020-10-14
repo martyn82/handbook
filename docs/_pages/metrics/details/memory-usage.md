@@ -6,7 +6,13 @@ parent: metrics-performanceefficiency
 top: metrics
 ---
 
-_The relative memory usage._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Memory usage' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Lead time for changes
+title: Lead time for Changes
 permalink: /metrics/lead-time-for-changes/
 parent: metrics-teamperformance
 top: metrics
 ---
 
-_The time it takes to go from code committed to code successfully running in production_.
+{% for m in site.data.metrics %}
+    {% if m.name == 'Lead time for Changes' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

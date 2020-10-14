@@ -24,7 +24,7 @@
   quality: Maintainability
 
 - name: Cyclomatic complexity
-  excerpt: The number of lineary independent paths; usually measured per unit/function.
+  excerpt: The number of linearly independent paths; usually measured per unit/function.
   quality: Maintainability
 
 - name: Relative duplication

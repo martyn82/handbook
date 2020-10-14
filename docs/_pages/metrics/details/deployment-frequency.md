@@ -6,7 +6,13 @@ parent: metrics-teamperformance
 top: metrics
 ---
 
-_The number of deployments in a period of time_.
+{% for m in site.data.metrics %}
+    {% if m.name == 'Deployment frequency' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

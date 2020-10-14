@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Mean time to detect
+title: Mean time to Detect (MTTD)
 permalink: /metrics/mean-time-to-detect-mttd/
 parent: metrics-security
 top: metrics
 ---
 
-_The average time it takes to detect an attack._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Mean time to Detect (MTTD)' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

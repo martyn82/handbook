@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_The average amount of lines of code (LoC) per unit/function._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Unit size' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

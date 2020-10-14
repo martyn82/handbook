@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Mean time between failures (MTBF)
+title: Mean time Between Failures (MTBF)
 permalink: /metrics/mean-time-between-failures-mtbf/
 parent: metrics-reliability
 top: metrics
 ---
 
-_The average time elapsed between two consecutive failures._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Mean time Between Failures (MTBF)' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

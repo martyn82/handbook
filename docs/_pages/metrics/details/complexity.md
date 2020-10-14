@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_The number of linearly independent paths; usually measured per unit/function._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Cyclomatic complexity' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

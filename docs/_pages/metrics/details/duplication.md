@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_The relative amount of duplicated code, measured in duplicative blocks._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Relative duplication' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

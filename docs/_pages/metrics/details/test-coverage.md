@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_The relative amount of code covered by (automated) tests._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Test coverage' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

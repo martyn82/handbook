@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_Efferent/afferent coupling of classes or components._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Coupling' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

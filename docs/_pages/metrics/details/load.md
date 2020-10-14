@@ -6,7 +6,13 @@ parent: metrics-performanceefficiency
 top: metrics
 ---
 
-_The load imposed on a system. Usually measured as three averages: last 1 minute, 5 minutes, and 15 minutes._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Load' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

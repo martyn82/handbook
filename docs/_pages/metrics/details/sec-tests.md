@@ -6,7 +6,13 @@ parent: metrics-security
 top: metrics
 ---
 
-_The number of passed security (regression) tests give an indication to what kind of attacks you're protected against. Each solved open security issue should get a test that is run regularly (manually or automatically)._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Number of passed security (regression) tests' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

@@ -6,7 +6,13 @@ parent: metrics-teamperformance
 top: metrics
 ---
 
-_The average time it takes to recover from a failure._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Mean time to Recovery/Repair/Restore (MTTR)' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

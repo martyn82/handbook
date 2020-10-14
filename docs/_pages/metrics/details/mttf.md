@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Mean time to failure (MTTF)
+title: Mean time to Failure (MTTF)
 permalink: /metrics/mean-time-to-failure-mttf/
 parent: metrics-reliability
 top: metrics
 ---
 
-_The average time a (part of a) system lasts until it fails. This is a metric meant for unrepairable systems._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Mean time to Failure (MTTF)' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

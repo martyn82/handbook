@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_A 5-level rank indicating the stability of a program._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Stability rank' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

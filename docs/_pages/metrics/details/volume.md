@@ -6,7 +6,13 @@ parent: metrics-maintainability
 top: metrics
 ---
 
-_The total amount of man-years of the program (i.e., library or deployable unit)._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Volume' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

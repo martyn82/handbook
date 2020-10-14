@@ -6,7 +6,13 @@ parent: metrics-performanceefficiency
 top: metrics
 ---
 
-_Limiting behaviour of a function when the input tends towards a value or infinity. Static analysis of run-time behaviour._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Big-O' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
 
 <dl>
     <dt>Key Performance Indicator</dt>

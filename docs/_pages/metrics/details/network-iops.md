@@ -6,7 +6,14 @@ parent: metrics-performanceefficiency
 top: metrics
 ---
 
-_Network throughput (sent/received) measured in operations per second._
+{% for m in site.data.metrics %}
+    {% if m.name == 'Network IOPs' %}
+        {% assign metric = m %}
+    {% endif %}
+{% endfor %}
+
+_{{ metric.excerpt }}_
+
 
 <dl>
     <dt>Key Performance Indicator</dt>
