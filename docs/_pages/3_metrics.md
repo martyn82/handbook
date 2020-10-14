@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Metrics
+title: Software metrics
 permalink: /metrics/
 key: metrics
 ---
