@@ -16,7 +16,8 @@ _The average time a (part of a) system lasts until it fails. This is a metric me
     <dd>No</dd>
     
     <dt>Rationale</dt>
-    <dd>Measuring the time it takes before a failure occurs gives an impression on the life expectancy of a system.</dd>
+    <dd>Measuring the time it takes before a failure occurs gives an impression on the life expectancy of a system.
+        <br>It is meant for unrepairable systems. For example, space probes that 'brick' when they fail.</dd>
     
     <dt>Improving</dt>
     <dd>Usually, longer is better.
