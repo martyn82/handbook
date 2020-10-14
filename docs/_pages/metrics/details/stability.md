@@ -24,11 +24,13 @@ _{{ metric.excerpt }}_
     </dd>
     
     <dt>Rationale</dt>
-    <dd>
+    <dd>This is a KPI from the <a href="https://www.softwareimprovementgroup.com/wp-content/uploads/2019/10/APracticalModelForMeasuringMaintainability.pdf">SIG maintainability model</a>.
         Stability refers to the degree with which a change to the system doesn't introduce undesired side effects.
         <br><br>
         Stability rank is a weighed metric composed of ranked
         <a href="{{ '/metrics/unit-size/' | relative_url }}">Unit size</a>.
+        <br><br>
+        Based on these metrics and their respective assessed rank, the Stability will be determined as an average across these sub-ranked characteristics.
     </dd>
     
     <dt>Improving</dt>

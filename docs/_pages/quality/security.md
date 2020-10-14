@@ -50,11 +50,3 @@ distinguish four main areas, each with its own metric.
 </dl>
 
 <small>★ Key Performance Indicator</small>
-
-## Further read
-
-<ul>
-    <li>
-        <a href="{{ '/tactics/security/' | relative_url }}">Security tactics</a>
-    </li>
-</ul>

@@ -43,11 +43,3 @@ This is what _fault tolerance_ actually is about. Having proper [tactics]({{ '/t
 </dl>
 
 <small>★ Key Performance Indicator</small>
-
-## Further read
-
-<ul>
-    <li>
-        <a href="{{ '/tactics/reliability/' | relative_url }}">Reliability tactics</a>
-    </li>
-</ul>

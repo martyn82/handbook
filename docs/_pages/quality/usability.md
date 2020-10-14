@@ -13,11 +13,3 @@ _{{ site.quality.Usability }}_
     <dd>{{ q | last }}</dd>
 {% endfor %}
 </dl>
-
-## Further read
-
-<ul>
-    <li>
-        <a href="{{ '/tactics/usability/' | relative_url }}">Usability tactics</a>
-    </li>
-</ul>

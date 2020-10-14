@@ -24,11 +24,14 @@ _{{ metric.excerpt }}_
     </dd>
     
     <dt>Rationale</dt>
-    <dd>Changeability refers to the degree with which a system is easy to change.
+    <dd>This is a KPI from the <a href="https://www.softwareimprovementgroup.com/wp-content/uploads/2019/10/APracticalModelForMeasuringMaintainability.pdf">SIG maintainability model</a>.
+        Changeability refers to the degree with which a system is easy to change.
         <br><br>
         Changeability rank is a weighed metric composed of ranked
         <a href="{{ '/metrics/cyclomatic-complexity/' | relative_url }}">Cyclomatic complexity</a>, and
         <a href="{{ '/metrics/relative-duplication/' | relative_url }}">Duplication</a>.
+        <br><br>
+        Based on these metrics and their respective assessed rank, the Changeability will be determined as an average across these sub-ranked characteristics.
     </dd>
     
     <dt>Improving</dt>

@@ -41,11 +41,3 @@ Meaning, you could cut close to 25% of the CPU power to save costs.
 </dl>
 
 <small>★ Key Performance Indicator</small>
-
-## Further read
-
-<ul>
-    <li>
-        <a href="{{ '/tactics/performance-efficiency/' | relative_url }}">Performance Efficiency tactics</a>
-    </li>
-</ul>

@@ -24,13 +24,15 @@ _{{ metric.excerpt }}_
     </dd>
     
     <dt>Rationale</dt>
-    <dd>
+    <dd>This is a KPI from the <a href="https://www.softwareimprovementgroup.com/wp-content/uploads/2019/10/APracticalModelForMeasuringMaintainability.pdf">SIG maintainability model</a>.
         Testability refers to the degree with which the system can be verified for its correctness.
         <br><br>
         Testability rank is a weighed metric composed of ranked
         <a href="{{ '/metrics/cyclomatic-complexity/' | relative_url }}">Cyclomatic complexity</a>,
         <a href="{{ '/metrics/unit-size/' | relative_url }}">Unit size</a>, and
         <a href="{{ '/metrics/test-coverage/' | relative_url }}">Test coverage</a>.
+        <br><br>
+        Based on these metrics and their respective assessed rank, the Testability will be determined as an average across these sub-ranked characteristics.
     </dd>
     
     <dt>Improving</dt>
