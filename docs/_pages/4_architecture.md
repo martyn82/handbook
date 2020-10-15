@@ -72,3 +72,13 @@ Design patterns solve local problems.
     <dt>Behavioural patterns</dt>
     <dd>Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template method, Visitor</dd>
 </dl>
+
+## Implementation patterns
+
+There's even a lower level of patterns: implementation patterns. These patterns refer to micro-patterns and heuristics at the coding level.
+As far as a handbook for leaders in tech is concerned, these patterns are out of scope.
+
+For more information, I recommend these books:
+
+- [Implementation patterns](https://www.amazon.nl/Implementation-Patterns-Beck-Kent/dp/0321413091)
+- [Clean Code](https://www.amazon.nl/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/)
