@@ -38,6 +38,11 @@ data:
   usage:
 
   tactics:
+    Maintainability:
+        - Anticipate expected changes
+        - Restrict communication paths
+    Usability:
+        - Separate user-interface
 
   implications:
     pros:

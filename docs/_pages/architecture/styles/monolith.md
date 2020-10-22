@@ -28,6 +28,9 @@ data:
     Amazon.com and eBay. 
 
   tactics:
+    Maintainability:
+      - Anticipate expected changes
+      - Maintain semantic coherence
 
   implications:
     pros:

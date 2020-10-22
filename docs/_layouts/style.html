@@ -34,11 +34,28 @@ supported:
 
 {% if page.data.tactics %}
 <h2>Packaged tactics</h2>
-<ul>
+<p>This style or pattern packages the following tactics to achieve quality goals:</p>
+<dl>
 {% for t in page.data.tactics %}
-  <li>{{ t }}</li>
+  <dt>{{ t | first }}</dt>
+  <dd>
+    {% assign tis = t | last %}
+    <dl>
+    {% for ti in tis %}
+      {% assign tp = site.pages | where: 'title', ti | first %}
+      {% if tp %}
+        <dt>
+          <a href="{{ tp.url | relative_url }}">{{ tp.title }}</a>
+        </dt>
+        <dd>
+          <small>{{ tp.excerpt }}</small>
+        </dd>
+      {% endif %}
+    {% endfor %}
+    </dl>
+  </dd>
 {% endfor %}
-</ul>
+</dl>
 {% endif %}
 
 {% if page.data.implications %}
