@@ -47,6 +47,18 @@ Some contemporary architectural styles are the following.
 Some example architectural patterns that solve problems the architectural styles create.
 
 <dl>
+{% for item in site.pages %}
+    {% if item.parent == 'architecture-patterns' %}
+    <dt>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </dt>
+    <dd>{{ item.excerpt }}</dd>
+    {% endif %}
+{% endfor %}
+</dl>
+
+<!--
+<dl>
     <dt>Microservices</dt>
     <dd>A way to organise logic in a system around pluggable, individually deployable applications.</dd>
     
@@ -62,6 +74,7 @@ Some example architectural patterns that solve problems the architectural styles
     <dt>Space-based</dt>
     <dd>A way to scale processing power by dividing a task into individually computable tasks on separate logical processes.</dd>
 </dl>
+-->
 
 ## Design patterns
 
