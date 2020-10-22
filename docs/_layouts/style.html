@@ -1,0 +1,91 @@
+---
+layout: page
+
+supported:
+  - aka
+  - challenges
+  - context
+  - description
+  - implications
+  - tactics
+  - usage
+  - views
+---
+
+{% if page.data.aka %}
+<h3>Also known as</h3>
+<p>{{ page.data.aka }}</p>
+{% endif %}
+
+{% if page.data.description %}
+<h2>Description</h2>
+<p>{{ page.data.description | markdownify }}</p>
+{% endif %}
+
+{% if page.data.context %}
+<h2>Context</h2>
+<p>{{ page.data.context | markdownify }}</p>
+{% endif %}
+
+{% if page.data.usage %}
+<h2>Usage</h2>
+<p>{{ page.data.usage | markdownify }}</p>
+{% endif %}
+
+{% if page.data.tactics %}
+<h2>Packaged tactics</h2>
+<ul>
+{% for t in page.data.tactics %}
+  <li>{{ t }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if page.data.implications %}
+<h2>Implications</h2>
+<dl>
+  <dt>Advantages</dt>
+  <dd>
+    <ul>
+  {% for i in page.data.implications['pros'] %}
+      <li>{{ i }}</li>
+  {% endfor %}
+    </ul>
+  </dd>
+
+  <dt>Disadvantages</dt>
+  <dd>
+    <ul>
+    {% for i in page.data.implications['cons'] %}
+      <li>{{ i }}</li>
+    {% endfor %}
+    </ul>
+  </dd>
+</dl>
+{% endif %}
+
+{% if page.data.challenges %}
+<h2>Challenges</h2>
+<dl>
+{% for c in page.data.challenges %}
+  <dt>{{ c.q }}</dt>
+  <dd>Patterns to consider:
+    <ul>
+    {% for a in c.a %}
+      {% assign ap = site.pages | where: 'key', a | first %}
+      {% if ap %}
+      <li>
+        <a href="{{ ap.url | relative_url }}">{{ ap.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </dd>
+{% endfor %}
+</dl>
+{% endif %}
+
+{% if page.data.views %}
+<h2>Views</h2>
+
+{% endif %}

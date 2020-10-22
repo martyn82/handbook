@@ -24,17 +24,22 @@ The difference between architectural styles, architectural patterns, and design 
 Some contemporary architectural styles are the following.
 
 <dl>
-    <dt>Layered</dt>
-    <dd>The system is designed around layers, each with clear responsibilities, and communication between layers is constrained.</dd>
-    
+{% for item in site.pages %}
+    {% if item.parent == 'architecture-styles' %}
+    <dt>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </dt>
+    <dd>{{ item.excerpt }}</dd>
+    {% endif %}
+{% endfor %}
+
+<!--
     <dt>Microkernel</dt>
     <dd>The system is designed around a Core component and Plug-in components.</dd>
     
-    <dt>Monolithic application</dt>
-    <dd>The whole system consists of a single deployable package.</dd>
-    
     <dt>Pipes and Filters</dt>
     <dd>The system is designed around Filter components, containing logic, and Pipe components, the communication channels between filters.</dd>
+-->
 </dl>
 
 ## Architectural patterns

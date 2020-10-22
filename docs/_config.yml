@@ -59,6 +59,12 @@ include:
 
 # Site-wide data
 
+menu:
+  - quality
+  - metrics
+  - tactics
+  - architecture
+
 quality:
   Compatibility: Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment.
   'Functional suitability': This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.
