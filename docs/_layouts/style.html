@@ -3,10 +3,10 @@ layout: page
 
 supported:
   - aka
+  - analysis
   - challenges
   - context
   - description
-  - implications
   - tactics
   - usage
   - views
@@ -23,17 +23,17 @@ supported:
 {% endif %}
 
 {% if page.data.context %}
-<h2>Context</h2>
+<h3>Context</h3>
 <p>{{ page.data.context | markdownify }}</p>
 {% endif %}
 
 {% if page.data.usage %}
-<h2>Usage</h2>
+<h3>Usage</h3>
 <p>{{ page.data.usage | markdownify }}</p>
 {% endif %}
 
 {% if page.data.tactics %}
-<h2>Packaged tactics</h2>
+<h3>Packaged tactics</h3>
 <p>This style or pattern packages the following tactics to achieve quality goals:</p>
 <dl>
 {% for t in page.data.tactics %}
@@ -58,37 +58,16 @@ supported:
 </dl>
 {% endif %}
 
-{% if page.data.implications %}
-<h2>Implications</h2>
-<dl>
-  <dt>Advantages</dt>
-  <dd>
-    <ul>
-  {% for i in page.data.implications['pros'] %}
-      <li>{{ i }}</li>
-  {% endfor %}
-    </ul>
-  </dd>
-
-  <dt>Disadvantages</dt>
-  <dd>
-    <ul>
-    {% for i in page.data.implications['cons'] %}
-      <li>{{ i }}</li>
-    {% endfor %}
-    </ul>
-  </dd>
-</dl>
-{% endif %}
-
 {% if page.data.challenges %}
-<h2>Challenges</h2>
+<h3>Challenges</h3>
 <dl>
 {% for c in page.data.challenges %}
   <dt>{{ c.q }}</dt>
-  <dd>Patterns to consider:
+  <dd>
+  {% if c.a.patterns %}
+    Patterns to consider:
     <ul>
-    {% for a in c.a %}
+    {% for a in c.a.patterns %}
       {% assign ap = site.pages | where: 'key', a | first %}
       {% if ap %}
       <li>
@@ -97,6 +76,20 @@ supported:
       {% endif %}
     {% endfor %}
     </ul>
+  {% endif %}
+  {% if c.a.tactics %}
+    Tactics to consider:
+    <ul>
+    {% for a in c.a.tactics %}
+      {% assign atp = site.pages | where: 'title', a | first %}
+      {% if atp %}
+      <li>
+        <a href="{{ atp.url | relative_url }}">{{ atp.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
   </dd>
 {% endfor %}
 </dl>
@@ -105,4 +98,18 @@ supported:
 {% if page.data.views %}
 <h2>Views</h2>
 
+{% endif %}
+
+{% if page.data.analysis %}
+<h2>Analysis</h2>
+<dl>
+{% for t in page.data.analysis %}
+  <dt>{{ t | first }}</dt>
+  {% assign r = t | last %}
+  <dd>
+    <i>Rating:</i>&nbsp;<span>{{ r.rating }}</span>
+    {% if r.rationale %}<p>{{ r.rationale }}</p>{% endif %}
+  </dd>
+{% endfor %}
+</dl>
 {% endif %}
