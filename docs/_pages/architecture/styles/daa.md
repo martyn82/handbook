@@ -30,8 +30,6 @@ data:
   
   tactics:
     Maintainability:
-        - Anticipate expected changes
-        - Maintain semantic coherence
         - Hide information
         - Component replacement
         - Separate interface from implementation
@@ -66,6 +64,7 @@ data:
             - Bound execution times
             - Control frequency of sampling
             - Manage event rate
+            - Removal from service
 
   analysis:
     Modifiability:
@@ -96,7 +95,7 @@ data:
         rating: High
         rationale: >-
             A change to a single component, only requires a deployment of that changed component. This makes deploying a lot easier compared to a monolithic
-            application. It also allows scaling on teams, since components can be deployed independently.
+            application. It also allows scaling on teams, since components can be deployed independently, and a single team can have ownership of a component.
 
   views:
 ---

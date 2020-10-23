@@ -59,36 +59,72 @@ supported:
 {% endif %}
 
 {% if page.data.challenges %}
-<h3>Challenges</h3>
+<h2>Challenges</h2>
 <dl>
 {% for c in page.data.challenges %}
-  <dt>{{ c.q }}</dt>
+  <dt>
+    <h3>{{ c.q }}</h3>
+  </dt>
   <dd>
+  {% if c.a.practices %}
+    <dl>
+      <dt>Practices</dt>
+      <dd>
+        <dl>
+        {% for a in c.a.practices %}
+          {% assign app = site.pages | where: 'key', a | first %}
+          {% if app %}
+            <dt>
+              <a href="{{ app.url | relative_url }}">{{ app.title }}</a>
+            </dt>
+            <dd>
+              <small>{{ app.excerpt }}</small>
+            </dd>
+          {% endif %}
+        {% endfor %}
+        </dl>
+      </dd>
+    </dl>
+  {% endif %}
   {% if c.a.patterns %}
-    Patterns to consider:
-    <ul>
-    {% for a in c.a.patterns %}
-      {% assign ap = site.pages | where: 'key', a | first %}
-      {% if ap %}
-      <li>
-        <a href="{{ ap.url | relative_url }}">{{ ap.title }}</a>
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
+    <dl>
+      <dt>Patterns</dt>
+      <dd>
+        <dl>
+        {% for a in c.a.patterns %}
+          {% assign ap = site.pages | where: 'key', a | first %}
+          {% if ap %}
+          <dt>
+            <a href="{{ ap.url | relative_url }}">{{ ap.title }}</a>
+          </dt>
+          <dd>
+            <small>{{ ap.excerpt }}</small>
+          </dd>
+          {% endif %}
+        {% endfor %}
+        </dl>
+      </dd>
+    </dl>
   {% endif %}
   {% if c.a.tactics %}
-    Tactics to consider:
-    <ul>
-    {% for a in c.a.tactics %}
-      {% assign atp = site.pages | where: 'title', a | first %}
-      {% if atp %}
-      <li>
-        <a href="{{ atp.url | relative_url }}">{{ atp.title }}</a>
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
+    <dl>
+      <dt>Tactics</dt>
+      <dd>
+        <dl>
+        {% for a in c.a.tactics %}
+          {% assign atp = site.pages | where: 'title', a | first %}
+          {% if atp %}
+          <dt>
+            <a href="{{ atp.url | relative_url }}">{{ atp.title }}</a>
+          </dt>
+          <dd>
+            <small>{{ atp.excerpt }}</small>
+          </dd>
+          {% endif %}
+        {% endfor %}
+        </dl>
+      </dd>
+    </dl>
   {% endif %}
   </dd>
 {% endfor %}
@@ -103,7 +139,8 @@ supported:
 {% if page.data.analysis %}
 <h2>Analysis</h2>
 <dl>
-{% for t in page.data.analysis %}
+{% assign analysis = page.data.analysis | sort %}
+{% for t in analysis %}
   <dt>{{ t | first }}</dt>
   {% assign r = t | last %}
   <dd>
