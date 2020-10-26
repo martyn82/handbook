@@ -1,9 +1,9 @@
 ---
 layout: style
 title: Message broker
-permalink: /architecture/patterns/message-broker/
-parent: architecture-patterns
-top: architecture
+permalink: /engineering/patterns/message-broker/
+parent: engineering-patterns
+top: engineering
 key: message-broker
 
 excerpt:

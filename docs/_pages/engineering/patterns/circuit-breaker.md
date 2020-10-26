@@ -1,9 +1,9 @@
 ---
 layout: style
 title: Circuit breaker
-permalink: /architecture/patterns/circuit-breaker/
-parent: architecture-patterns
-top: architecture
+permalink: /engineering/patterns/circuit-breaker/
+parent: engineering-patterns
+top: engineering
 key: circuit-breaker
 
 excerpt:

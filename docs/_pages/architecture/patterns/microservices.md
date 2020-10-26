@@ -60,10 +60,14 @@ data:
       - q: How to exchange data between services without coupling?
         a:
           patterns:
-              - message-broker
-              - message-driven-communication
+              - message-driven
           tactics:
               - Adherence to defined protocols
+
+      - q: How to manage deployments of multiple small services?
+        a:
+          practices:
+              - container-orchestration
 
       - q: How to keep an overview of what is happening (tracing)?
         a:

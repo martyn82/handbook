@@ -1,10 +1,10 @@
 ---
 layout: style
-title: Message-driven communication
-permalink: /architecture/patterns/message-driven-communication/
-parent: architecture-patterns
-top: architecture
-key: message-driven-communication
+title: Container orchestration
+permalink: /architecture/practices/container-orchestration/
+parent: engineering-practices
+top: engineering
+key: container-orchestration
 
 excerpt:
 

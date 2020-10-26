@@ -1,9 +1,9 @@
 ---
 layout: style
 title: Monitoring
-permalink: /architecture/practices/monitoring/
-parent: architecture-practices
-top: architecture
+permalink: /engineering/practices/monitoring/
+parent: engineering-practices
+top: engineering
 key: monitoring
 
 excerpt:

@@ -1,9 +1,9 @@
 ---
 layout: style
 title: Proactive notifications
-permalink: /architecture/practices/proactive-notifications/
-parent: architecture-practices
-top: architecture
+permalink: /engineering/practices/proactive-notifications/
+parent: engineering-practices
+top: engineering
 key: proactive-notifications
 
 excerpt:

@@ -45,10 +45,12 @@ data:
             - layered
             - microservices
 
-    - q: How to ensure communication between components works well?
+    - q: How to standardise communications between components?
       a:
         patterns:
-            - message-driven-communication
+            - message-driven
+            - restful-api
+            - rpc
         tactics:
             - Adherence to defined protocols
 
@@ -60,6 +62,8 @@ data:
 
     - q: How to stay responsive when downstream components are unresponsive?
       a:
+        patterns:
+            - circuit-breaker
         tactics:
             - Bound execution times
             - Control frequency of sampling
